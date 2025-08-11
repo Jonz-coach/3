@@ -180,9 +180,10 @@ export default function Page() {
         <div className="max-w-6xl mx-auto px-4 py-16 md:py-24">
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div>
-              <motion.h1 initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="text-4xl md:text-5xl font-bold leading-tight tracking-tight">
-                정글·원딜 전문 <span className="underline decoration-primary/50">맞춤형 롤 코칭</span>
-              </motion.h1>
+              <motion.h1 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+  Jonz 코칭 아카데미
+</motion.h1>
+
               <p className="mt-4 text-lg text-muted-foreground">
                 젠지 코치 아카데미 수료 · DRX 3군 연습생 육성 경험. 실전에서 통하는 루틴과 <span className="font-medium text-slate-800"> 파워 스파이크</span> 기반 의사결정으로 승률을 바꿉니다.
               </p>
