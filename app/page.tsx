@@ -193,9 +193,13 @@ export default function Page() {
               </div>
               <div className="mt-8 flex items-center gap-3">
                 <Button size="lg" onClick={() => onBook("체험 1회")}>지금 체험하기</Button>
-                <Button size="lg" variant="outline" asChild>
-                  <a href="#packages">패키지 보기</a>
-                </Button>
+                <a
+  href="#packages"
+  className="inline-flex items-center justify-center rounded-2xl border border-slate-200 h-11 px-6 text-sm hover:bg-slate-50"
+>
+  패키지 보기
+</a>
+
               </div>
             </div>
             <div>
