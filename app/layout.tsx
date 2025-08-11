@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "J&ADC Coaching",
-  description: "정글·원딜 전문 맞춤형 롤 코칭",
+  title: "Jonz 코칭 아카데미",
+  description: "개인 맞춤형 롤 코칭",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
