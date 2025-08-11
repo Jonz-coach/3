@@ -159,7 +159,7 @@ export default function Page() {
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <ShieldCheck className="w-6 h-6" />
-            <span className="font-semibold tracking-tight">J&ADC Coaching</span>
+            <span className="font-semibold tracking-tight">Jonz 코칭 아카데미</span>
             <Badge className="ml-2" variant="outline">Master</Badge>
           </div>
           <nav className="hidden md:flex items-center gap-5 text-sm">
